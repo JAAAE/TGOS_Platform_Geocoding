@@ -11,3 +11,5 @@ The API key (**kestr**) on the platform (https://gis.tgos.tw/TGLocator/TGLocator
 1. Automate web control using the **selenium.webdriver** library.
 2. Extract the coordinates from the geocoding result using the **requests** library
 3. Save the geocoded coordinates to a CSV file using the **csv** library
+
+* Liraries: requests、json、csv、pandas、sslenium、time
