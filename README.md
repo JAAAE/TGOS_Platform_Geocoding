@@ -13,19 +13,10 @@ The API key (**keystr**) on the platform (https://gis.tgos.tw/TGLocator/TGLocato
 
 * Libraries: requests、json、csv、pandas、sslenium、time（pip install requests pandas selenium）
 
-* customed file path and address column name ：
+*Customize the file path and correct the column name for the address：
   ```
-      ################################## customed path ######################
-    input_path = r'C:\Users\USER\Desktop\test.csv'
-    output_path = r'C:\Users\USER\Desktop\Addresss_result.csv'
-    ######################################################################
-    start_time = time.time() 
-    keystr = get_keystr(driver)
-    print(keystr)
-
-    df = pd.read_csv(input_path, encoding="utf-8")
-    ################################## customed address column name ######################
-    df1 = df['商業地址']
-    ######################################################################
+    1. input_path = r'C:\Users\USER\Desktop\test.csv'
+    2. output_path = r'C:\Users\USER\Desktop\Addresss_result.csv'
+    3. df1 = df['商業地址']
   ```
   
