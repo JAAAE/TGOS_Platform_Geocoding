@@ -12,3 +12,20 @@ The API key (**keystr**) on the platform (https://gis.tgos.tw/TGLocator/TGLocato
 3. Save the geocoded coordinates to a CSV file using the **csv** library
 
 * Libraries: requests、json、csv、pandas、sslenium、time（pip install requests pandas selenium）
+
+* customed file path and address column name ：
+  ```
+      ################################## customed path ######################
+    input_path = r'C:\Users\USER\Desktop\test.csv'
+    output_path = r'C:\Users\USER\Desktop\Addresss_result.csv'
+    ######################################################################
+    start_time = time.time() 
+    keystr = get_keystr(driver)
+    print(keystr)
+
+    df = pd.read_csv(input_path, encoding="utf-8")
+    ################################## customed address column name ######################
+    df1 = df['商業地址']
+    ######################################################################
+  ```
+  
