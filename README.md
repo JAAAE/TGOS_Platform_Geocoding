@@ -5,7 +5,7 @@ Automatically geocoding via Python on the TGOS platform(https://map.tgos.tw/TGOS
   
 * `Objective` : Enter an address in the search box, automatically utilize geocoding, and repeat the process n times.
 * `Challenge` :
-The API key (**keystr**) on the platform (https://gis.tgos.tw/TGLocator/TGLocator.ashx?format=jsonp&input=&srs=EPSG:4326&ignoreGeometry=false&pnum=1&keystr=xwX1jHXL3NnG5rbVMs9zH%2F0NWItJYrtxFG%2F%2BeA59MJY%3D&jsonp=TGOS.getJSON%5B%27sn0%27%5D) changes approximately every twenty minutes."
+The API key (**keystr**) on the platform (https://gis.tgos.tw/TGLocator/TGLocator.ashx?format=jsonp&input=&srs=EPSG:4326&ignoreGeometry=false&pnum=1&keystr=xwX1jHXL3NnG5rbVMs9zH%2F0NWItJYrtxFG%2F%2BeA59MJY%3D&jsonp=TGOS.getJSON%5B%27sn0%27%5D) changes approximately every twenty minutes.
 
 * `Results` :
 1. Automate web control using the **selenium.webdriver** library.
