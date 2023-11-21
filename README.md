@@ -12,7 +12,7 @@ The API key (**keystr**) on the platform (https://gis.tgos.tw/TGLocator/TGLocato
 2. Extract the coordinates from the platform using the **requests** library
 3. Save the geocoded coordinates to a CSV file using the **csv** library
 
-* `Libraries` : requests、json、csv、pandas、sslenium、time（pip install requests pandas selenium）
+* `Libraries` : requests、json、csv、pandas、slenium、time（pip install requests pandas selenium）
 
 * Customize the file path and the column name for the address：
   ```
