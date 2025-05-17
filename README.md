@@ -1,7 +1,7 @@
 # TGOS_Platform_Geocoding
 Automatically geocoding via Python on the TGOS platform(https://api.tgos.tw/TGOS_MAP_API/Docs/Example/99)
 
-* `Motivation`：The TGOS platform enables individuals to geocode addresses to coordinates by inputting the address in the search box, providing an alternative method to the official TGOS geocoding service, which has a limit of ten thousand addresses per day.
+* `Motivation`：The TGOS platform allows users to geocode addresses by entering them into the search box, offering an alternative to the official TGOS geocoding service, which has a daily limit of 10,000 addresses.
   
 * `Objective` : Enter an address in the search box, automatically utilize geocoding, and repeat the process n times.
 * `Challenge` :
