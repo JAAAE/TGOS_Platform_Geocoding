@@ -12,12 +12,12 @@ The API key (**keystr**) on the platform (https://gis.tgos.tw/TGAddress/TGAddres
 2. Extract the coordinates from the platform using the **requests** library
 3. Save the geocoded coordinates to a CSV file using the **csv** library
 
-* `Libraries` : requests、json、csv、pandas、slenium、time（pip install requests pandas selenium）
+* `Libraries` : requests、json、csv、pandas、selenium、time（pip install requests pandas selenium）
 
 * Customize the file path and the column name for the address：
   ```
     1. input_path = r'C:\Users\USER\Desktop\test.csv'
     2. output_path = r'C:\Users\USER\Desktop\Addresss_result.csv'
-    3. df1 = df['商業地址']
+    3. address_list = df['商業地址'].dropna().tolist()
   ```
   
